@@ -188,11 +188,3 @@ if __name__ == '__main__':
     # best_svr.fit(x_train, y_train)
     # scores.append(best_svr.score(x_test, y_test))
 
-    # print(np.mean(scores))
-    # cross_val = cross_val_predict(best_svr, x_value, y_value, cv=3)
-    # print(cross_val)
-    # # Perform 6-fold cross validation
-    # # scores = cross_val_score(model, df, y, cv=6)
-    # print('Cross-validated scores:')
-    # print(scores)
-
