@@ -4,7 +4,6 @@ from sklearn.model_selection import KFold
 from sklearn.svm import SVR
 
 
-
 def linear_regression(list_data):
     df = pd.DataFrame(list_data)
     df.columns = ['one', 'sepal_len', 'sepal_wid', 'petal_len', 'petal_wid', 'class']
