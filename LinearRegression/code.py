@@ -79,7 +79,7 @@ def classification(x_matrix,b, class_values):
 
 
 if __name__ == '__main__':
-    dataset = pd.read_csv('../iris.csv')
+    dataset = pd.read_csv('iris.csv')
     list_data = dataset.values.tolist()
     for x in list_data:
         x.insert(0, 1)
